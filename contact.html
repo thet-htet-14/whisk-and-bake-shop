@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whisk & Bake</title>
+    <link rel="icon" href="./images/Logo picture.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navigation section -->
+    <section>
+      <div class="navigation">
+        <div class="logo-left">
+          <img src="./images/Logo icon 2.png" alt="Whisk & Bake" />
+          <div class="shop-name">
+            <h1>Whisk & Bake</h1>
+            <p>Matcha drinks & cakes</p>
+          </div>
+        </div>
+        <div class="nav-bar-right">
+          <a href="./index.html">Home</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./aboutus.html">About Us</a>
+
+          <a href="./contact.html">Contact</a>
+        </div>
+        <div class="bar-menu"><i class="fa-solid fa-bars"></i></div>
+      </div>
+    </section>
+
+    <!-- Contact hero section -->
+    <section>
+      <div class="hero-container">
+        <div class="hero-img">
+          <img src="./images/contact.png" alt="" />
+        </div>
+        <div class="contact-text">
+          <h1>Contact Us</h1>
+          <pre>_________<i class="fa-solid fa-heart"></i>_________</pre>
+          <p>We'd love to hear from you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- form and location section -->
+    <div class="two-section">
+      <div class="form-section">
+        <h1>Send Us a Message</h1>
+        <form action="">
+          <label for="">Name</label>
+          <input type="text" name="" id="" />
+          <label for="">Email Address</label>
+          <input type="text" name="" id="" />
+          <label for="">Message</label>
+          <textarea id="" cols="30" rows="10"></textarea>
+          <input type="button" value="Send message" class="button" />
+        </form>
+      </div>
+      <div class="location-section">
+        <div class="location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.577811333907!2d96.11695877435041!3d21.989160879911527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d28cc98e861%3A0xaba17f197d07107d!2s58c%2021st%20St%2C%20Mandalay%2011111!5e0!3m2!1sen!2smm!4v1782051398270!5m2!1sen!2smm"
+            width="500"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="text">
+            <h1>Our Shop Location</h1>
+            <p>21 22 and 58C street, Mandalay</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="footer-section">
+        <div class="footer-left">
+          <h1>Whisk & Bake</h1>
+          <p>
+            Thank you for supporting our small business. We can't wait to serve
+            you!
+          </p>
+          <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h3>Opening hours</h3>
+          <div class="opening-hour">
+            <div class="date">
+              <p>Mon-Fri</p>
+              <p>Sat-Sun</p>
+            </div>
+            <div class="time">
+              <p>9:00AM -8:00 AM</p>
+              <p>10:00AM -8:00 AM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let menuBtn = document.querySelector(".bar-menu");
+      let navMenu = document.querySelector(".nav-bar-right");
+
+      menuBtn.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
